@@ -40,5 +40,8 @@ git add --all
 git commit -m "Here is my message"
 
 :: Push Changes to Repository
-git push -u origin main
+git push -u -f origin main
+
+:: Check If Push was Successful
+git status
 ```
