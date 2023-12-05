@@ -45,3 +45,10 @@ git push -u -f origin main
 :: Check If Push was Successful
 git status
 ```
+
+**Saving Git Logs to Output**
+
+```
+:: Save Git Commit Logs to File
+git --no-pager log -p --author="<Github Username>" > <module_name>-git-log.txt 
+```
