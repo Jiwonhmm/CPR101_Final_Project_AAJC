@@ -16,8 +16,9 @@
 #include <string.h>
 #include <stdlib.h>
 
-// Converting Module V1
-// Converts C Strings to Integers
+// Converting Module- C String Conversions
+// Version 1.0- C Strings to Integer
+// Version 2.0- C Strings to Double
 void converting(void);
 
 #endif
