@@ -8,47 +8,15 @@ Members:
 
 _____
 
-**Initialising Git/Github**
+**EDITED:**
 
-```
-:: Go to Folder on Computer
-cd C:\Users\NAME\<FOLDER_NAME>
+To add module files to repository, follow this tutorial: 
+https://docs.github.com/en/get-started/quickstart/contributing-to-projects
 
-:: Create Empty Git Repository On Computer
-git init
 
-:: Check if Repository is Initialized (.git file)
-On Windows: dir /a:h
-On Unix/Mac: ls -a
+When making changes, add your .c and .h files to the cloned directory.
 
-:: Add GitHub Repository Origin
-git remote add origin https://github.com/AdrianCurammeng/CPR101_Final_Project_AAJC
-```
+**Important**- Don't change the module files names, keep them as "module".c and "module".h.
 
-**Adding Files to Github**
-
-```
-:: Go to Folder
-cd C:\Users\NAME\<FOLDER_NAME>
-
-:: Add Files to Current Folders
-
-:: Add Files to Github Commit
-git add --all
-
-:: Add Commit Message
-git commit -m "Here is my message"
-
-:: Push Changes to Repository
-git push -u -f origin main
-
-:: Check If Push was Successful
-git status
-```
-
-**Saving Git Logs to Output**
-
-```
-:: Save Git Commit Logs to File
-git --no-pager log -p --author="<Github Username>" > <module_name>-git-log.txt 
-```
+Only submit C code files to this repository. Submit everything else (test cases, test output) 
+to MSTeams.
